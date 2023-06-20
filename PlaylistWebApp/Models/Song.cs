@@ -11,9 +11,9 @@ namespace PlaylistWebApp.Models
         public int IdSong { get; set; }
 
         [Column("NAMESONG")]
-        public string Name { get; set; }
+        public string NameSong { get; set; }
 
-        [Column("CATEGORIE")]
-        public string Categorie { get; set; }
+        [Column("ARTIST")]
+        public string Artist { get; set; }
     }
 }
